@@ -1,4 +1,5 @@
 /* eslint-disable no-undef */
 module.exports = {
-  lintOnSave: true
+  semi: false,
+  singleQuote: true
 }
