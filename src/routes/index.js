@@ -7,10 +7,7 @@
 |
 */
 
-// App
-import lang from './lang'
-
 // Pages
 import home from './pages/home'
 
-export default [...lang, ...home]
+export default [...home]

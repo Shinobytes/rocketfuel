@@ -1,5 +1,7 @@
+import ui from './ui'
+import languageSelect from './languageSelect'
+
 export default {
-  message: {
-    hello: 'こんにちは、世界'
-  }
+  ui,
+  languageSelect
 }

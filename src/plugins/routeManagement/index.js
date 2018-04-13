@@ -10,7 +10,7 @@ const router = new Router({ routes })
 
 // Guards
 router.beforeEach((to, from, next) => {
-  loadLanguageAsync(to.query.lang).then(() => next())
+  loadLanguageAsync(to.query.locale).then(() => next())
 })
 
 export default router
